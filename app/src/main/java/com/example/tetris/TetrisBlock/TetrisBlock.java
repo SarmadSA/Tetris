@@ -12,7 +12,7 @@ public abstract class TetrisBlock {
     protected int xPosition = 0;
     protected int yPosition = 0;
     protected boolean isOnGround = false;
-
+    private final int SPACE = 10;
     /**
      * Draws the smallest uit int the game, that is a rectangle.
      * This rectangle can be used to draw the rest tetris blocks
@@ -20,7 +20,7 @@ public abstract class TetrisBlock {
      * @param canvas
      */
     protected Rectangle getRectangle(Canvas canvas, Paint paint, int rectangleWidth, int leftPosition, int topPosition){
-        return new Rectangle(canvas, paint, rectangleWidth, leftPosition, topPosition);
+        return new Rectangle(canvas, paint, rectangleWidth - SPACE, leftPosition, topPosition);
     }
 
     protected int getRandomXPosition(int upperLimit, int blockWidth){

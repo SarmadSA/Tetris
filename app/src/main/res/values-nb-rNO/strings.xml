@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tetris</string>
+    <string name="menu_settings">Instillinger</string>
+    <string name="menu_exit">Avslutt</string>
+    <string name="play">Spill</string>
+    <string name="app_settings">Innstillinger</string>
+    <string name="app_tutorial">Veiledning</string>
+    <string name="settings_back">Lagre endringer</string>
+    <string name="change_lang_summary">Trykk her for å endre språket</string>
+    <string name="lang_settings_title">Språk</string>
+    <string name="back_button">Tilbake</string>
+    <string name="menu_pause">Pause</string>
+    <string name="menu_unpause">GjennOppta</string>
+    <string name="to_main_menu">Til hoved-meny</string>
+    <string name="p2_tutorial">Tilfeldige Tetris blokker kommer fra toppen i tilfeldige x positioner.\n</string>
+    <string name="p3_tutorial">\nDu kan bevege Tetris blokkene langs x-aksen. For å bevege et Tetris blokk klikker du i et av sidene til blokken (Du må klikke UTEN FOR Tetris blokken til høyre eller til venstre, det vil si ikke inn i blokken!!)</string>
+    <string name="tutorial_header">Denne android appen er en enkel vesion av spile Tetris. For å starte spille trykk -Spill- knappen i start menyet.Når du are i spillet, spillet starter automatisk.
+                    Under beskriver vi hvordan spillet dette spillet:</string>
+
+
+    <string-array name="languages">
+        <item>Engelsk</item>
+        <item>Norsk</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>EN</item>
+        <item>NO</item>
+    </string-array>
+</resources>

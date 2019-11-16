@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_exit"
+        android:title="@string/menu_exit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_pause"
+        android:title="@string/menu_pause"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_unpause"
+        android:title="@string/menu_unpause"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_to_main_menu"
+        android:title="@string/to_main_menu"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
